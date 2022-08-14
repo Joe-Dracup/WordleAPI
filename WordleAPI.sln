@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordleAPI", "src\WordleAPI\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordleAPI.Repositories", "src\WordleAPI.Repositories\WordleAPI.Repositories.csproj", "{3D9D0B66-2AAF-4C9A-ACDE-B0F219603437}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleAPI.UnitTests", "tests\WordleAPI.UnitTests\WordleAPI.UnitTests.csproj", "{17D8C2F3-9A56-4783-A803-F49377C1961A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,9 +25,16 @@ Global
 		{3D9D0B66-2AAF-4C9A-ACDE-B0F219603437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D9D0B66-2AAF-4C9A-ACDE-B0F219603437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D9D0B66-2AAF-4C9A-ACDE-B0F219603437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D8C2F3-9A56-4783-A803-F49377C1961A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D8C2F3-9A56-4783-A803-F49377C1961A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D8C2F3-9A56-4783-A803-F49377C1961A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D8C2F3-9A56-4783-A803-F49377C1961A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17D8C2F3-9A56-4783-A803-F49377C1961A} = {2B7C2BB9-A1B8-4CEA-B159-E76433EA4457}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3ED889A-2A6D-47DA-A31E-07A9D48DD7A7}
