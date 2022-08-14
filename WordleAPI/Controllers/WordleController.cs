@@ -20,7 +20,7 @@ namespace WordleAPI.Controllers
             _logger = logger;
         }
 
-        [Route("[controller]/guessword")]
+        [Route("[controller]/getresults")]
         [ApiConventionMethod(typeof(DefaultApiConventions), nameof(DefaultApiConventions.Post))]
         public async Task<IActionResult> GetTopResults(WordleQuery query)
         {

@@ -14,17 +14,20 @@ namespace WordleAPI.Services.Concrete
         {
             var maxLetters = 5;
             var isValid = true;
-            
+
             if (query.Letters.Count <= 0 || query.Letters.Count > maxLetters)
             {
                 isValid = false;
             }
-            
+
             foreach (var item in query.Letters)
             {
-                if(item.NotKnownPos.Count > maxLetters)
+                if (item.KnownNotPos != null)
                 {
-                    isValid = false;
+                    if (item.KnownNotPos.Count > maxLetters)
+                    {
+                        isValid = false;
+                    }
                 }
             }
 

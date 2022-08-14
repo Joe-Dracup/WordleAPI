@@ -12,7 +12,7 @@ namespace WordleAPI.CQRS.Query
     {
         public char Char { get; set; }
         public int? KnownPos { get; set; }
-        public List<int> NotKnownPos { get; set; }
+        public List<int> KnownNotPos { get; set; }
     }
 
     public class WordleQueryResult
