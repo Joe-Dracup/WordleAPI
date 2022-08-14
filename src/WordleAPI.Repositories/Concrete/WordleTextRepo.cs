@@ -9,7 +9,7 @@ namespace WordleAPI.Repositories.Concrete
         public List<string> GetWordList()
         {
             //CodeReview: this could be from appsettings
-            var logFile = File.ReadAllLines(@"C:\Development\WordleAPI\WordleAPI.Repositories\Resources\Words.Txt");
+            var logFile = File.ReadAllLines(@"C:\Development\WordleAPI\src\WordleAPI.Repositories\Resources\Words.Txt");
             return new List<string>(logFile);
         }
     }

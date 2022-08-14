@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordleAPI", "WordleAPI\WordleAPI.csproj", "{A8375085-5770-4E8D-8E85-64ABDF58F67D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2B7C2BB9-A1B8-4CEA-B159-E76433EA4457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleAPI.Repositories", "WordleAPI.Repositories\WordleAPI.Repositories.csproj", "{0E2DAE13-C04B-46EA-84F5-2A99FBAC6919}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordleAPI", "src\WordleAPI\WordleAPI.csproj", "{2F641C10-14E0-4F3D-A24F-B9A4D7A0A1EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordleAPI.Repositories", "src\WordleAPI.Repositories\WordleAPI.Repositories.csproj", "{3D9D0B66-2AAF-4C9A-ACDE-B0F219603437}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,14 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A8375085-5770-4E8D-8E85-64ABDF58F67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A8375085-5770-4E8D-8E85-64ABDF58F67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A8375085-5770-4E8D-8E85-64ABDF58F67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A8375085-5770-4E8D-8E85-64ABDF58F67D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E2DAE13-C04B-46EA-84F5-2A99FBAC6919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E2DAE13-C04B-46EA-84F5-2A99FBAC6919}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E2DAE13-C04B-46EA-84F5-2A99FBAC6919}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E2DAE13-C04B-46EA-84F5-2A99FBAC6919}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F641C10-14E0-4F3D-A24F-B9A4D7A0A1EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F641C10-14E0-4F3D-A24F-B9A4D7A0A1EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F641C10-14E0-4F3D-A24F-B9A4D7A0A1EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F641C10-14E0-4F3D-A24F-B9A4D7A0A1EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9D0B66-2AAF-4C9A-ACDE-B0F219603437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9D0B66-2AAF-4C9A-ACDE-B0F219603437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9D0B66-2AAF-4C9A-ACDE-B0F219603437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9D0B66-2AAF-4C9A-ACDE-B0F219603437}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
