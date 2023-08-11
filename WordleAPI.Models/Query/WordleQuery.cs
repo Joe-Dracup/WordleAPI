@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using System.Collections.Generic;
 
-namespace WordleAPI.CQRS.Query
+namespace WordleAPI.Models.Query
 {
     public class WordleQuery :  IRequest<WordleQueryResult>
     {

@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using WordleAPI.CQRS.Query;
-using WordleAPI.Services.Interfaces;
+﻿using WordleAPI.CQRS.Query;
+using WordleAPI.Models.Interfaces;
 
-namespace WordleAPI.Services.Concrete
+namespace WordleAPI.BLL.Services
 {
     public class WordleQueryValidator : IWordleQueryValidator
     {

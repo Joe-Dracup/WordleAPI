@@ -1,9 +1,8 @@
 ﻿using MediatR;
 using System.Threading;
 using System.Threading.Tasks;
-using WordleAPI.CQRS.Query;
-using WordleAPI.Repositories.Interfaces;
-using WordleAPI.Services.Interfaces;
+using WordleAPI.Models.Query;
+using WordleAPI.Models.Interfaces;
 
 namespace WordleAPI.CQRS.QueryHandler
 {

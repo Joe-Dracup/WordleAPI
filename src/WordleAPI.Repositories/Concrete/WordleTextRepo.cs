@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
-using WordleAPI.Repositories.Interfaces;
+using WordleAPI.Models.Interfaces;
 
 namespace WordleAPI.Repositories.Concrete
 {

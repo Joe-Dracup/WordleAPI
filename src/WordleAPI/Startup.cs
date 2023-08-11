@@ -5,9 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using WordleAPI.Repositories.Concrete;
-using WordleAPI.Repositories.Interfaces;
-using WordleAPI.Services.Concrete;
-using WordleAPI.Services.Interfaces;
+using WordleAPI.Models.Interfaces;
+using WordleAPI.BLL.Services;
 
 namespace WordleAPI
 {

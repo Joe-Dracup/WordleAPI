@@ -1,11 +1,7 @@
 ﻿using Moq;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using WordleAPI.CQRS.Query;
 using WordleAPI.CQRS.QueryHandler;
-using WordleAPI.Repositories.Interfaces;
-using WordleAPI.Services.Interfaces;
+using WordleAPI.Models.Interfaces;
 using Xunit;
 
 namespace WordleAPI.UnitTests.CQRS

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
-using WordleAPI.CQRS.Query;
+using WordleAPI.Models.Query;
 
 namespace WordleAPI.Controllers
 {

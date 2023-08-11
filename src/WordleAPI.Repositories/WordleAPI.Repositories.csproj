@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\WordleAPI.Models\WordleAPI.Models.csproj" />
+  </ItemGroup>
+
 </Project>

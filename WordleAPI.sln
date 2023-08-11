@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordleAPI", "src\WordleAPI\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordleAPI.Repositories", "src\WordleAPI.Repositories\WordleAPI.Repositories.csproj", "{3D9D0B66-2AAF-4C9A-ACDE-B0F219603437}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleAPI.UnitTests", "tests\WordleAPI.UnitTests\WordleAPI.UnitTests.csproj", "{17D8C2F3-9A56-4783-A803-F49377C1961A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordleAPI.UnitTests", "tests\WordleAPI.UnitTests\WordleAPI.UnitTests.csproj", "{17D8C2F3-9A56-4783-A803-F49377C1961A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleAPI.BLL", "WordleAPI.BLL\WordleAPI.BLL.csproj", "{0C11DC30-EF21-47A1-B529-BD79D2069E13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordleAPI.Models", "WordleAPI.Models\WordleAPI.Models.csproj", "{2F7D603E-7C81-4453-ABBC-2616E9F02D62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,14 @@ Global
 		{17D8C2F3-9A56-4783-A803-F49377C1961A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17D8C2F3-9A56-4783-A803-F49377C1961A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17D8C2F3-9A56-4783-A803-F49377C1961A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C11DC30-EF21-47A1-B529-BD79D2069E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C11DC30-EF21-47A1-B529-BD79D2069E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C11DC30-EF21-47A1-B529-BD79D2069E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C11DC30-EF21-47A1-B529-BD79D2069E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7D603E-7C81-4453-ABBC-2616E9F02D62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7D603E-7C81-4453-ABBC-2616E9F02D62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7D603E-7C81-4453-ABBC-2616E9F02D62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7D603E-7C81-4453-ABBC-2616E9F02D62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

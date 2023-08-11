@@ -5,17 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CQRS\Command\" />
-    <Folder Include="CQRS\CommandHandler\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="MediatR" Version="10.0.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\WordleAPI.BLL\WordleAPI.BLL.csproj" />
+    <ProjectReference Include="..\..\WordleAPI.Models\WordleAPI.Models.csproj" />
     <ProjectReference Include="..\WordleAPI.Repositories\WordleAPI.Repositories.csproj" />
   </ItemGroup>
 
