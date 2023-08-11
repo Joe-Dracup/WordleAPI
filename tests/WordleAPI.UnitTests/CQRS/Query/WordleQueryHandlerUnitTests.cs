@@ -1,6 +1,6 @@
 ﻿using Moq;
-using WordleAPI.CQRS.Query;
 using WordleAPI.CQRS.QueryHandler;
+using WordleAPI.Models.Query;
 using WordleAPI.Models.Interfaces;
 using Xunit;
 

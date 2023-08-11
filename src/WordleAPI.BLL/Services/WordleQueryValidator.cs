@@ -1,5 +1,5 @@
-﻿using WordleAPI.CQRS.Query;
-using WordleAPI.Models.Interfaces;
+﻿using WordleAPI.Models.Interfaces;
+using WordleAPI.Models.Query;
 
 namespace WordleAPI.BLL.Services
 {

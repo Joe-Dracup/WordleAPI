@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "f1772ed2-a850-4949-8314-6b3f6f41df32",
+		"name": "Wordle",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29087341"
+	},
+	"item": [
+		{
+			"name": "GetWordleResults",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Letters\": [\r\n        {\r\n            \"Char\": \"L\",\r\n            \"KnownPos\": null,\r\n            \"KnownNotPos\": [\r\n                1,\r\n                2\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44300/Wordle/GetResults",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44300",
+					"path": [
+						"Wordle",
+						"GetResults"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

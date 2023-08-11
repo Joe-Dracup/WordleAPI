@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using WordleAPI.CQRS.Query;
+using WordleAPI.Models.Query;
 using WordleAPI.Models.Interfaces;
 
 namespace WordleAPI.BLL.Services

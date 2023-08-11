@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\WordleAPI.BLL\WordleAPI.BLL.csproj" />
-    <ProjectReference Include="..\..\WordleAPI.Models\WordleAPI.Models.csproj" />
+    <ProjectReference Include="..\WordleAPI.BLL\WordleAPI.BLL.csproj" />
     <ProjectReference Include="..\WordleAPI.Repositories\WordleAPI.Repositories.csproj" />
   </ItemGroup>
 
